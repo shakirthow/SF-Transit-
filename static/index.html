@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+
+        <title>SF- Depature Times</title>
+        <meta content="Track and Set alerts on public transit" name="description">
+        <meta content="maps, bart, transit, public, train, san francisco, sf, califonia, bus, tram" name="keywords">
+        <meta content="Shakir Thowseen" name="author">
+        <link href="../favicon.ico" rel="shortcut icon">
+        <link href="css/depaturetimes.css" rel="stylesheet" type="text/css">
+        
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="css/ripples.min.css" rel="stylesheet"> -->
+        <!-- <link href="css/material-wfont.min.css" rel="stylesheet"> -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALzWb8yojkJf1Vic9x4B9jJMlSUW5rzy0&libraries=places" type="text/javascript"></script>
+</head>
+
+<body>
+
+        <button id="add-to-list">Add a list item</button>
+
+        <div id="map-canvas"></div>
+
+        <div id="search-box" class="col-lg-6">
+                <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                                <button class=" btn btn-primary btn-raised" type="button">Go!</button>
+                        </span>
+                </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+
+        <section id="timeCards" class="swing">
+                <ul id="timeCardList">
+               <!--         <li class="card">
+                                <div class="row title">
+                                        <div class="col-md-3 col-sm-3 col-lg-3">
+                                             <img class="logo" src="images/agents/bart.png">
+
+                                        </div>
+                                        <div class="col-md-7 col-sm-7 col-lg-7">
+                                                <h4>Station Name</h4>    
+                                        </div>
+                                        <div class="col-md-2 col-sm-2 col-lg-2">
+                                                <i onclick="removeCard($(this).parent().parent().parent())" class="glyphicon glyphicon-remove"></i>  
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-7 col-sm-7 col-lg-7">
+                                                Bay Fair
+                                        </div>
+                                        <div class="col-md-2 col-sm-2 col-lg-2">
+                                               <span class="time"> 90</span> 
+                                        </div>
+                                        <div class="col-md-2 col-sm-2 col-lg-2">
+                                               <span class="time"> 90</span> 
+                                        </div>
+                                        <div class="col-md-1 col-sm-1 col-lg-1"></div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-7 col-sm-7 col-lg-7">
+                                                SAF Airport
+                                        </div>
+                                        <div class="col-md-2 col-sm-2 col-lg-2">
+                                               <span class="time"> 90</span> 
+                                        </div>
+                                        <div class="col-md-2 col-sm-2 col-lg-2">
+                                               <span class="time"> 90</span> 
+                                        </div>
+                                        <div class="col-md-1 col-sm-1 col-lg-1"></div>
+
+                                </div>
+                                <div class="row alerts"><div class="col-md-4"><strong>Alert</strong></div><div class="col-md-8"> No alerts at this time</div></div>
+                        </li> -->
+
+
+                </ul>
+        </section>
+
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <!-- // <script src="js/ripples.min.js"></script> -->
+        <!-- // <script src="js/material.min.js"></script> -->
+        <script src="js/depaturetimes.js"></script>
+</body>
+</html>
